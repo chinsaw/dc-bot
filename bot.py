@@ -29,7 +29,7 @@ def customizer():
     return emoji_id, hex_number
 
 if __name__ == '__main__':
-    url = os.environ["URI"]
+    url = os.environ["WEBHOOK_URI"]
     emoji_id, hex_number = customizer()
     message_down = ("DC is Down. Please See to it.")
     title = (f"DC IS DOWN!!!!{emoji_id}")
